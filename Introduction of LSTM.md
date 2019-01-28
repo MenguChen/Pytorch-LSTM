@@ -11,3 +11,15 @@ https://github.com/pytorch/examples
 * AN4_Baseline  未测试
 * AN4_Aji       41
 * AN4_Var       46
+
+
+python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenmq' --dist-rank 0
+
+
+#### LSTM-PTB
+* PTB_Single        55(服务器）
+* PTB_Baseline      无（服务器）                  60(天河)
+* PTB_Aji_Momentum_Corr   67.84(服务器)          (天河)
+* PTB_Var_Momentum_Corr   66.25(服务器)          (天河)
+* PTB_Baseline_Adj  无（服务器）                  (天河)
+* PTB_Aji           无 (服务器）                  (天河)
