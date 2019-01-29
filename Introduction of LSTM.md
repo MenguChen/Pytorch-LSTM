@@ -52,7 +52,7 @@ python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenm
 * AlexNet_Single    0.7474(服务器)          (天河)
 * AlexNet_Baseline    无(服务器)     0.7292(天河)
 * AlexNet_Aji           (服务器)     0.7303(天河)
-* AlexNet_Var_Momentum  (服务器)     (天河)
-* AlexNet_Var_Momentum_Corr  (服务器)     (天河)
+* AlexNet_Var_Momentum  (服务器)     0.7094(天河)
+* AlexNet_Var_Momentum_Corr  (服务器)     0.7338(天河)
 
 
