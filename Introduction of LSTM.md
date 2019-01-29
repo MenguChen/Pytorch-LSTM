@@ -25,9 +25,17 @@ python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenm
 * PTB_Aji           无 (服务器）                  85(天河)
 
 
+#### ResNet50-Tiny_ImageNet_200
+* ResNet50_Single    (服务器)          (天河)
+* ResNet50_Baseline      (服务器)     (天河)
+* ResNet50_Aji           (服务器)     (天河)
+* ResNet50_Var_Momentum  (服务器)     (天河)
+* ResNet50_Var_Momentum_Corr  (服务器)     (天河)
+
+
 #### ResNet18-Tiny_ImageNet_200
-* ResNet18_Single    0.3904， 0.6365(服务器)          (天河)
-* ResNet18_Baseline    无(服务器)     (天河)
+* ResNet18_Single    (服务器)          (天河)
+* ResNet18_Baseline      (服务器)     (天河)
 * ResNet18_Aji           (服务器)     (天河)
 * ResNet18_Var_Momentum  (服务器)     (天河)
 * ResNet18_Var_Momentum_Corr  (服务器)     (天河)
@@ -42,8 +50,8 @@ python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenm
 
 #### AlexNet-Cifar10
 * AlexNet_Single    0.7474(服务器)          (天河)
-* AlexNet_Baseline    无(服务器)     (天河)
-* AlexNet_Aji           (服务器)     (天河)
+* AlexNet_Baseline    无(服务器)     0.7292(天河)
+* AlexNet_Aji           (服务器)     0.7303(天河)
 * AlexNet_Var_Momentum  (服务器)     (天河)
 * AlexNet_Var_Momentum_Corr  (服务器)     (天河)
 
