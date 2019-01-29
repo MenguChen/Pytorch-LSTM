@@ -35,10 +35,10 @@ python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenm
 
 #### VGG-Cifar10
 * VGG_Single    0.9119(服务器)          (天河)
-* VGG_Baseline    无(服务器)     (天河)
-* VGG_Aji           (服务器)     (天河)
-* VGG_Var_Momentum  (服务器)     (天河)
-* VGG_Var_Momentum_Corr  (服务器)     (天河)
+* VGG_Baseline    无(服务器)          0.8857(天河)
+* VGG_Aji           (服务器)          0.8953(天河)
+* VGG_Var_Momentum  (服务器)          0.8831(天河)
+* VGG_Var_Momentum_Corr  (服务器)     0.8970(天河)
 
 #### AlexNet-Cifar10
 * AlexNet_Single    0.7474(服务器)          (天河)
