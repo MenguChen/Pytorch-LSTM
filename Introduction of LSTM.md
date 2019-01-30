@@ -14,7 +14,7 @@ https://github.com/pytorch/examples
 
 
 python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenmq' --dist-rank 0
-
+四个节点以上，需要添加：net = torch.nn.parallel.DistributedDataParallel(net) 否则，准确率无法保障
 
 #### LSTM-PTB
 * PTB_Single        55(服务器）
@@ -35,10 +35,10 @@ python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenm
 
 #### ResNet18-Tiny_ImageNet_200
 * ResNet18_Single    0.4216 0.6751(服务器)          (天河)
-* ResNet18_Baseline      (服务器)     0.3798 0.6335(天河)
-* ResNet18_Aji           (服务器)     0.3916 0.6443(天河)
-* ResNet18_Var_Momentum  (服务器)     0.3828 0.6377(天河)
-* ResNet18_Var_Momentum_Corr  (服务器)    03947 0.6481 (天河)
+* ResNet18_Baseline      (服务器)     0.3798 0.6335(天河2)    0.3683 0.6210（天河4带Parallel)  
+* ResNet18_Aji           (服务器)     0.3916 0.6443(天河2)    
+* ResNet18_Var_Momentum  (服务器)     0.3828 0.6377(天河2)    0.4093 0.6556 (天河4带Parallel)
+* ResNet18_Var_Momentum_Corr  (服务器)    03947 0.6481 (天河2)
 
 
 #### VGG-Cifar10
