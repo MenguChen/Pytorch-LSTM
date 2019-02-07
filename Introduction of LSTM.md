@@ -37,8 +37,8 @@ python LSTM_Baseline.py --init-method='file:///HOME/sysu_wgwu_5/share_file_chenm
 * ResNet18_Single    0.4216 0.6751(服务器)          (天河)
 * ResNet18_Baseline      (服务器)     0.3798 0.6335(天河2)    0.3683 0.6210（天河4带Parallel)  
 * ResNet18_Aji           (服务器)     0.3916 0.6443(天河2)    0.4009 0.6557 (天河4带Parallel)
-* ResNet18_Var_Momentum  (服务器)     0.3828 0.6377(天河2)    0.4093 0.6556 (天河4带Parallel)
-* ResNet18_Var_Momentum_Corr  (服务器)    03947 0.6481 (天河2)
+* ResNet18_Var_Momentum  (服务器)     0.3828 0.6377(天河2)    0.4093 0.6556 (天河4带Parallel) 0.3691 0.6270 (天河4改batchsize)
+* ResNet18_Var_Momentum_Corr  (服务器)    03947 0.6481 (天河2)  0.3569 0.6206(天河4改batchsize)
 
 
 #### VGG-Cifar10
